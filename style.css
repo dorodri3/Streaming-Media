@@ -71,6 +71,8 @@ header {
 }
 
 nav {
+    font-size: larger;
+    
 
 
 
@@ -161,7 +163,14 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
+
+
 @media screen and (min-width:834px) {
+    
+
+
+
+    }
     body {
         width:834px;
     }
@@ -289,6 +298,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background:#ffffff;
     }
+
+
 
  
 
