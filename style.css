@@ -61,7 +61,9 @@ body {
 }
 
 header {
-    background-color: ;
+    background-color: #020659;
+    color:#ffffff;
+    font-weight: bold;
     
 
 
@@ -69,6 +71,7 @@ header {
 }
 
 nav {
+
 
 
 }
@@ -84,6 +87,10 @@ h1 {
 
 }
 
+h2 {
+    color: #590242;
+}
+
 h2, h3 {
     font-size:1em ;
 
@@ -91,11 +98,13 @@ h2, h3 {
 
 footer {
     text-align: center;
+    color:#590242;
 }
 
 
 footer p {
     font-size: 0.75em;
+    
 }
 
 ul {
