@@ -71,7 +71,9 @@ header {
 }
 
 nav {
-    font-size: larger;
+    text-decoration: line-through;
+    color:#ffffff;
+    background-color:#030a8c;
     
 
 
@@ -109,11 +111,48 @@ footer p {
     
 }
 
+
+
+
+
+
+
+aside {
+    margin: auto;
+    padding: auto;
+    color: #ffffff;
+    background-color: #590242;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ul {
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
+
+
+
+
 label {
     cursor: pointer;
     display: inline-block;
@@ -186,7 +225,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     label span, input {
         display: none;
     }
-}
+
 
 
     .scroll {
@@ -297,6 +336,12 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background:#ffffff;
+    }
+
+    .container {
+
+        display: grid;
+        grid-template-columns: 3;
     }
 
 
