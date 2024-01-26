@@ -78,7 +78,6 @@ header {
 }
 
 
-
 nav {
     
     color:#ffffff;
@@ -88,10 +87,6 @@ nav {
 
 
 }
-
-
-
-
 
 
 p, dl, dd {
@@ -131,7 +126,7 @@ aside {
     background-color: #590242;
     padding:auto;
     color: #ffffff;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -191,11 +186,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
-#home {
 
-    position: relative;
-    z-index: 1;
-}
 
 
 
