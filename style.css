@@ -54,7 +54,7 @@ table {
 html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    display:grid;
     
 }
 
@@ -62,6 +62,7 @@ body {
     background-color: #ffffff;
     margin: 0 auto;
     width:375px;
+    
 
 }
 
@@ -77,7 +78,7 @@ nav {
     
     color:#ffffff;
     background-color:#030a8c;
-    
+    position:absolute;
 
 
 
@@ -91,7 +92,7 @@ p, dl, dd {
 
 h1 {
     font-size:1.25em bold;
-    
+    position:absolute;
 
 }
 
